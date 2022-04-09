@@ -1,0 +1,45 @@
+#div1 {
+  width: 200px;
+  height: auto;
+  border-style: solid;
+}
+/* em er det samme som 40px men man kan finde em ved at dividere feksempel 40px med 16. */
+p.tekst1 {
+  font-size: 2.5em;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+p.tekst2 {
+  font-size: 40px;
+  font-family: Arial, serif;
+  font-weight: bold;
+}
+
+p.tekst3 {
+  color: #DDD;
+}
+
+p.tekst4 {
+  color: red;
+}
+
+p.tekst5 {
+  text-align: center;
+}
+
+p.tekst6 {
+  text-decoration: overline;
+}
+
+p.tekst7 {
+  text-transform: capitalize;
+}
+
+p.tekst8 {
+  text-transform: uppercase;
+}
+
+p.tekst9 {
+  text-transform: lowercase;
+}

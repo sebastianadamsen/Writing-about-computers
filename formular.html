@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formular</title>
+<meta charset="utf-8" />
+<meta name="description" content="Dette er en formular" />
+</head>
+<body>
+<form id="form1" action="#" method="post">
+  Navn:<br/>
+  <input type="text" autofocus /><br/>
+Hjemmeside:<br/>
+  <input type="url" disabled value="Ikke nødvendig" /><br/>
+  <label for="mand">Mand</label>
+  <input type="radio" value="mand" name="gender" id="mand" checked />
+  <label for="kvinde">Kvinde</label>
+  <input type="radio" value="kvinde" name="gender" id="kvinde"/><br/>
+  <label for="hund">Hund</label>
+  <input type="checkbox" value="hund" name="pet" id="hund">
+  <label for="kat">Kat</label>
+  <input type="checkbox" value="kat" name="pet" id="kat">
+  <label for="fugl">Fugl</label>
+  <input type="checkbox" value="fugl" name="pet" id="fugl"><br/>
+  Vælg farver<br/>
+  <select name="farve" multiple size="2">
+    <option>Brun</option>
+    <option>hvid</option>
+    <option>sort</option>
+  </select><br/>
+  <textarea style="width:200px;"></textarea>
+  <br/>
+  Kode:<br/>
+  <input type="password" /><br/>
+  <input type="submit" value="SEND" />
+  <input type="reset" value="SLET" />
+</form>
+</body>
+</html>

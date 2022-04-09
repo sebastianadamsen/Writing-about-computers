@@ -1,0 +1,27 @@
+
+h1 {
+  font-size: 50px;
+  color: #FF0000;
+  font-family: sans-serif;
+  /* Dette er en kommentar i css */
+}
+
+h2, h3, h4 {
+  color: #0000FF;
+  font-family: sans-serif;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 10px;
+}
+
+
+
+/* Det her er en kommentar
+der er på mere end en
+linje*/
