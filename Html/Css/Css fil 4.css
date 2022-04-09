@@ -1,0 +1,21 @@
+/* Lige nedenunder er der en element selector */
+h1 {
+  font-size: 40px;
+  color: #FF0000;
+  font-family: sans-serif;
+}
+/* Det lige under er en id selector*/
+#stortekst {
+  font-size: 70px
+}
+/* Det lige nedenunder er en class der gør så jeg ikke kun overfører styling til et specifikt sted men jeg har gjort
+så det kun er inde i span man kan bruge det ved at skrive span foran det første punktum */
+/* Det lige nedenunder er en class*/
+span.citat {
+  font-size: 12px;
+  font-style: italic;
+}
+/* Det lige nedenunder gør teksten gul der hvor der bliver skrevet gul inde under class */
+.gul {
+  color:yellow;
+}
